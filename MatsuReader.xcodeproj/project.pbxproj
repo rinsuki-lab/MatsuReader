@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE9F813A28994A2F007E6912 /* Account+keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9F813928994A2F007E6912 /* Account+keychain.swift */; };
+		CEE00DFC289842FD005BDB53 /* MatsuReaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE00DFB289842FD005BDB53 /* MatsuReaderApp.swift */; };
+		CEE00DFE289842FD005BDB53 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE00DFD289842FD005BDB53 /* ContentView.swift */; };
+		CEE00E00289842FE005BDB53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE00DFF289842FE005BDB53 /* Assets.xcassets */; };
+		CEE00E03289842FE005BDB53 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE00E02289842FE005BDB53 /* Preview Assets.xcassets */; };
+		CEE00E05289842FE005BDB53 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE00E04289842FE005BDB53 /* Persistence.swift */; };
+		CEE00E08289842FE005BDB53 /* MatsuReader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEE00E06289842FE005BDB53 /* MatsuReader.xcdatamodeld */; };
+		CEED59A628998AE600647F0A /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEED59A528998AE600647F0A /* BrowseView.swift */; };
+		CEED59A828999B3800647F0A /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEED59A728999B3800647F0A /* APIClient.swift */; };
+		CEED59AC28999EFB00647F0A /* APIContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEED59AB28999EFB00647F0A /* APIContent.swift */; };
+		CEED59AE289A471F00647F0A /* APIBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEED59AD289A471F00647F0A /* APIBook.swift */; };
+		CEED59B2289A482700647F0A /* BookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEED59B1289A482700647F0A /* BookView.swift */; };
+		CEED59B4289A4E9A00647F0A /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEED59B3289A4E9A00647F0A /* PageView.swift */; };
+		CEFAF5982898B7EE00734C3B /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = CEFAF5972898B7EE00734C3B /* KeychainAccess */; };
+		CEFAF59A2898B84900734C3B /* AccountListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFAF5992898B84900734C3B /* AccountListView.swift */; };
+		CEFAF59C2898B93300734C3B /* AddAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFAF59B2898B93300734C3B /* AddAccountView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE9F813928994A2F007E6912 /* Account+keychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Account+keychain.swift"; sourceTree = "<group>"; };
+		CEE00DF8289842FD005BDB53 /* MatsuReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MatsuReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE00DFB289842FD005BDB53 /* MatsuReaderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatsuReaderApp.swift; sourceTree = "<group>"; };
+		CEE00DFD289842FD005BDB53 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CEE00DFF289842FE005BDB53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEE00E02289842FE005BDB53 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEE00E04289842FE005BDB53 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		CEE00E07289842FE005BDB53 /* MatsuReader.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MatsuReader.xcdatamodel; sourceTree = "<group>"; };
+		CEED59A528998AE600647F0A /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
+		CEED59A728999B3800647F0A /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		CEED59AB28999EFB00647F0A /* APIContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIContent.swift; sourceTree = "<group>"; };
+		CEED59AD289A471F00647F0A /* APIBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIBook.swift; sourceTree = "<group>"; };
+		CEED59B1289A482700647F0A /* BookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookView.swift; sourceTree = "<group>"; };
+		CEED59B3289A4E9A00647F0A /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		CEFAF5992898B84900734C3B /* AccountListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountListView.swift; sourceTree = "<group>"; };
+		CEFAF59B2898B93300734C3B /* AddAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAccountView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEE00DF5289842FD005BDB53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFAF5982898B7EE00734C3B /* KeychainAccess in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE9F813828994A24007E6912 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE9F813928994A2F007E6912 /* Account+keychain.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CEE00DEF289842FD005BDB53 = {
+			isa = PBXGroup;
+			children = (
+				CEE00DFA289842FD005BDB53 /* MatsuReader */,
+				CEE00DF9289842FD005BDB53 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEE00DF9289842FD005BDB53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEE00DF8289842FD005BDB53 /* MatsuReader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEE00DFA289842FD005BDB53 /* MatsuReader */ = {
+			isa = PBXGroup;
+			children = (
+				CEE00DFB289842FD005BDB53 /* MatsuReaderApp.swift */,
+				CEED59A928999B3B00647F0A /* View */,
+				CEED59AA28999EE200647F0A /* API */,
+				CE9F813828994A24007E6912 /* Model */,
+				CEE00DFF289842FE005BDB53 /* Assets.xcassets */,
+				CEE00E04289842FE005BDB53 /* Persistence.swift */,
+				CEE00E06289842FE005BDB53 /* MatsuReader.xcdatamodeld */,
+				CEE00E01289842FE005BDB53 /* Preview Content */,
+			);
+			path = MatsuReader;
+			sourceTree = "<group>";
+		};
+		CEE00E01289842FE005BDB53 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CEE00E02289842FE005BDB53 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CEED59A928999B3B00647F0A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CEE00DFD289842FD005BDB53 /* ContentView.swift */,
+				CEFAF5992898B84900734C3B /* AccountListView.swift */,
+				CEFAF59B2898B93300734C3B /* AddAccountView.swift */,
+				CEED59A528998AE600647F0A /* BrowseView.swift */,
+				CEED59B1289A482700647F0A /* BookView.swift */,
+				CEED59B3289A4E9A00647F0A /* PageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CEED59AA28999EE200647F0A /* API */ = {
+			isa = PBXGroup;
+			children = (
+				CEED59A728999B3800647F0A /* APIClient.swift */,
+				CEED59AD289A471F00647F0A /* APIBook.swift */,
+				CEED59AB28999EFB00647F0A /* APIContent.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEE00DF7289842FD005BDB53 /* MatsuReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE00E0B289842FE005BDB53 /* Build configuration list for PBXNativeTarget "MatsuReader" */;
+			buildPhases = (
+				CEE00DF4289842FD005BDB53 /* Sources */,
+				CEE00DF5289842FD005BDB53 /* Frameworks */,
+				CEE00DF6289842FD005BDB53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MatsuReader;
+			packageProductDependencies = (
+				CEFAF5972898B7EE00734C3B /* KeychainAccess */,
+			);
+			productName = MatsuReader;
+			productReference = CEE00DF8289842FD005BDB53 /* MatsuReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEE00DF0289842FD005BDB53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					CEE00DF7289842FD005BDB53 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = CEE00DF3289842FD005BDB53 /* Build configuration list for PBXProject "MatsuReader" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEE00DEF289842FD005BDB53;
+			packageReferences = (
+				CEFAF5962898B7EE00734C3B /* XCRemoteSwiftPackageReference "KeychainAccess" */,
+			);
+			productRefGroup = CEE00DF9289842FD005BDB53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEE00DF7289842FD005BDB53 /* MatsuReader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEE00DF6289842FD005BDB53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE00E03289842FE005BDB53 /* Preview Assets.xcassets in Resources */,
+				CEE00E00289842FE005BDB53 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEE00DF4289842FD005BDB53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEED59A628998AE600647F0A /* BrowseView.swift in Sources */,
+				CEE00E08289842FE005BDB53 /* MatsuReader.xcdatamodeld in Sources */,
+				CEED59AC28999EFB00647F0A /* APIContent.swift in Sources */,
+				CEED59B2289A482700647F0A /* BookView.swift in Sources */,
+				CEED59B4289A4E9A00647F0A /* PageView.swift in Sources */,
+				CEFAF59C2898B93300734C3B /* AddAccountView.swift in Sources */,
+				CEE00E05289842FE005BDB53 /* Persistence.swift in Sources */,
+				CE9F813A28994A2F007E6912 /* Account+keychain.swift in Sources */,
+				CEFAF59A2898B84900734C3B /* AccountListView.swift in Sources */,
+				CEE00DFE289842FD005BDB53 /* ContentView.swift in Sources */,
+				CEE00DFC289842FD005BDB53 /* MatsuReaderApp.swift in Sources */,
+				CEED59AE289A471F00647F0A /* APIBook.swift in Sources */,
+				CEED59A828999B3800647F0A /* APIClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CEE00E09289842FE005BDB53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEE00E0A289842FE005BDB53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEE00E0C289842FE005BDB53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MatsuReader/Preview Content\"";
+				DEVELOPMENT_TEAM = 4XKKKM86RN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "ユーザーが設定した場合、Face ID による認証をパスワードをセキュアに保管するために利用します。アプリは顔が Face ID で登録されているかどうかのみを取得し、あなたの顔のデータ自体を取り扱うことはありません。";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.rinsuki.apps.MatsuReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEE00E0D289842FE005BDB53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MatsuReader/Preview Content\"";
+				DEVELOPMENT_TEAM = 4XKKKM86RN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "ユーザーが設定した場合、Face ID による認証をパスワードをセキュアに保管するために利用します。アプリは顔が Face ID で登録されているかどうかのみを取得し、あなたの顔のデータ自体を取り扱うことはありません。";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.rinsuki.apps.MatsuReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEE00DF3289842FD005BDB53 /* Build configuration list for PBXProject "MatsuReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE00E09289842FE005BDB53 /* Debug */,
+				CEE00E0A289842FE005BDB53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE00E0B289842FE005BDB53 /* Build configuration list for PBXNativeTarget "MatsuReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE00E0C289842FE005BDB53 /* Debug */,
+				CEE00E0D289842FE005BDB53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CEFAF5962898B7EE00734C3B /* XCRemoteSwiftPackageReference "KeychainAccess" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kishikawakatsumi/KeychainAccess";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 4.2.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CEFAF5972898B7EE00734C3B /* KeychainAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CEFAF5962898B7EE00734C3B /* XCRemoteSwiftPackageReference "KeychainAccess" */;
+			productName = KeychainAccess;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		CEE00E06289842FE005BDB53 /* MatsuReader.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CEE00E07289842FE005BDB53 /* MatsuReader.xcdatamodel */,
+			);
+			currentVersion = CEE00E07289842FE005BDB53 /* MatsuReader.xcdatamodel */;
+			path = MatsuReader.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CEE00DF0289842FD005BDB53 /* Project object */;
+}
